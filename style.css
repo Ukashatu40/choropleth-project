@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  svg {
+    display: block;
+    margin: auto;
+  }
+  .county {
+    stroke: #fff;
+    stroke-width: 0.3;
+  }
+  #tooltip {
+    position: absolute;
+    visibility: hidden;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 0.85em;
+  }
